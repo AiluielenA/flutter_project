@@ -20,6 +20,14 @@ class FirstPage extends StatelessWidget {
           },
         ),
       ),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: () {
+          // Add your onPressed code here!
+        },
+        label: const Text('Add'),
+        icon: const Icon(Icons.thumb_up),
+        backgroundColor: const Color.fromARGB(255, 220, 82, 128),
+      ),
     );
   }
 
